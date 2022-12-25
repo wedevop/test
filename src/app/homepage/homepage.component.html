@@ -1,0 +1,8 @@
+<p>homepage works!</p>
+<button (click)="navigate()" class="btn btn-primary">about</button>
+<span *ngIf="show">
+{{msg}}
+
+</span>
+<input type="text" [(ngModel)]="name">
+<span>{{name}}</span>
