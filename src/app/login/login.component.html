@@ -10,7 +10,7 @@
               <h3 class="login-heading mb-4">{{login | uppercase}}</h3>
               <span>{{date | date:'d/M/y'}} </span>
               <div *ngFor="let x of movies;">
-                <span class="names">{{x.title}}</span><span>{{x.director}}</span>
+                <!-- <span class="names">{{x.title}}</span><span>{{x.director}}</span> -->
               </div>
               <!-- Sign In Form -->
               <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
