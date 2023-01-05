@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl,FormGroup,Validators,FormBuilder } from '@angular/forms';
-
+import { Pipe, PipeTransform } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,6 +8,6 @@ import { FormControl,FormGroup,Validators,FormBuilder } from '@angular/forms';
 })
 export class AppComponent {
   title = 'Login Page';
-  
+
 }
 

@@ -1,14 +1,26 @@
 <div class="container-fluid ps-md-0">
   <div class="row g-0">
-    <img src="https://source.unsplash.com/WEQbe2jBg40/600x1200">
+    <!-- <img src="https://source.unsplash.com/WEQbe2jBg40/600x1200"> -->
     <!-- <div class="bg-image"></div> -->
     <div class="col-md-8 col-lg-6">
       <div class="login d-flex align-items-center py-5">
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
+              <!-- <togglewidget></togglewidget> -->
               <h3 class="login-heading mb-4">{{login | uppercase}}</h3>
-              <span>{{date | date:'d/M/y'}} </span>
+              <!-- <span>{{date | date:'d/M/y'}} </span> -->
+
+
+              <!-- <p>my birthday is {{ date | date:'fulldate' | uppercase}}</p> -->
+              <!-- event is passed to function -->
+              <!-- <input (keyup)="onKeyUp($event)"> -->
+<!-- text variable is displayed -->
+              <!-- <p>{{text}}</p> -->
+
+              <!-- <input (keyup.Space)="onKeyU($event)"> -->
+              <!-- <p>{{number}}</p> -->
+
               <div *ngFor="let x of movies;">
                 <!-- <span class="names">{{x.title}}</span><span>{{x.director}}</span> -->
               </div>

@@ -11,6 +11,7 @@ export class HomepageComponent {
  show :any;
  msg:any;
 name: any;
+
    constructor(private router: Router){
 this.show=false;
 this.msg="this is variable";
